@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Userprofile</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link crossorigin="anonymous" media="all" integrity="sha512-UBjgtRBniEFInMRdLWy+AQpqVG3dXJ42NfBDyYI70v+m7Op7FiuhF8KnQGQlF8uZBAGLddSZp4SRB4OWa861zQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-ac96a57dfbae1eae5827b45ff74be4a8.css">
+    <link crossorigin="anonymous" media="all" integrity="sha512-Z0JAar9+DkI1NjGVdZr3GivARUgJtA0o2eHlTv7Ou2gshR5awWVf8QGsq11Ns9ZxQLEs+G5/SuARmvpOLMzulw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-95aff0b550d3fe338b645a4deebdcb1b.css">
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
